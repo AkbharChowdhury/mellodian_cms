@@ -1,0 +1,50 @@
+create new laravel project
+composer create-project --prefer-dist laravel/laravel blog
+run-server 
+php artisan serve
+controllers
+php artisan make:controller WelcomeController
+migration
+php artisan make:migration CreateSalesDetailsTable
+
+change column name:
+php artisan make:migration change_price_pizzas_table --table=pizzas 
+
+delete all tables and rerun migrations
+php artisan migrate:fresh
+
+php artisan make:status 
+
+php artisan make:seeder TicketSeeder
+
+auth::routes
+
+login/register
+composer require laravel/ui
+php artisan ui vue --auth
+npm install
+npm run dev
+
+php artisan make:model Seat -mc
+
+php artisan migrate:rollback --step=1
+php artisan make:migration createEventSa -m
+
+create factory
+php artisan make:factory ColourFactory
+make seeders
+php artisan make:seeder EventSeeder
+
+migrate and run all seeders
+php artisan migrate:fresh --seed
+run one seeder
+php artisan db:seed --class=TicketSeeder
+
+php artisan make:enum Tickets
+
+php artisan make:request StoreUpdateCreateBookingRequest
+
+
+php artisan make:model EventSeats -mc
+
+
