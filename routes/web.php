@@ -14,12 +14,6 @@ Route::get('/', [WelcomeController::class, 'index']);
 
 Route::view('/thank-you', 'thank-you');
 
-
-
-
-
-
-
 Route::controller(EventController::class)->group(function () {
     Route::get('events', 'index')->name('events.index');
     Route::get('events/search_results', 'eventSearchResults')->name('events.search_results');
