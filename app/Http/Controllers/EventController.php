@@ -99,8 +99,8 @@ class EventController extends Controller
         return Event::from('events' ,'e')
                 ->select('e.*')
                 ->when($request->input('txtSearch'), fn($query, $txtSearch) => $query->where('e.event_title', 'LIKE', '%' . $txtSearch . '%'))
-                // ->where('e.event_date', '>=', 'CURRENT_DATE' )
-                // ->orderby('e.event_date')
+                ->where('e.event_date', '>=', 'CURRENT_DATE' )
+                ->orderby('e.event_date')
                 ->get();
     }
 }
