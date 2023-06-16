@@ -1,0 +1,119 @@
+$body-color :#636b6f;
+$old-purple:#5e2195;
+$purple: #6648b1;
+$purple-hover: #563d7c;
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: $body-color;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+
+body {
+    min-height: 100vh !important;
+}
+
+
+.navbar {
+    padding: 0.8rem;
+
+    li {
+        padding-right: 20px;
+        padding-top: 1rem;
+    }
+}
+
+
+.navbar-nav li a {
+    color: $old-purple !important;
+}
+
+.navbar-brand {
+    color: $old-purple !important;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+    color: $old-purple;
+}
+
+.links>a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+footer {
+    position: sticky;
+    top: 100%;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: $purple;
+    border: 1px solid $purple;
+
+    &:hover {
+        background-color: $purple-hover;
+        border: 1px solid $purple-hover;
+
+    }
+}
+.btn-outline-primary {
+    color: $purple-hover;
+    border: 1px solid $purple-hover;
+}
+
+a,
+.btn-link {
+    color: $purple;
+
+    &:hover {
+        color: $purple-hover;
+
+    }
+}

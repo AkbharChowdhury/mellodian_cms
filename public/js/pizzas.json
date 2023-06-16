@@ -1,0 +1,78 @@
+{
+    "pizzas": [
+        {
+            "type": "margherita",
+            "cost": 6.00,
+            "description": "A classic - tomato, mozzarella & basil"
+        },
+        {
+            "type": "napoletana",
+            "cost": 7.00,
+            "description": "Gourmet pizza - San Marzano tomatoes, buffalo mozzarella, basil & oregano"
+        },
+        {
+            "type": "marinara",
+            "cost": 7.50,
+            "description": "Gourmet classic - tomatoes, mozzarella, anchovies, olive oil & garlic"
+        },
+        {
+            "type": "calzone",
+            "cost": 8.50,
+            "description": "A year-round favourite - oven-baked, folded pizza, stuffed with ham, mozzarella and an egg"
+        },
+        {
+            "type": "veg supreme",
+            "cost": 10,
+            "description": "vegetarian food"
+        }
+    ],
+
+    "crusts": [
+        {
+            "type": "garlic crust",
+            "cost": 0.50,
+            "description": "crust garlic"
+        },
+
+        {
+            "type": "thin and crispy",
+            "cost": 0.50,
+            "description": "thin...."
+        },
+
+        {
+            "type": "thick",
+            "cost": 0.50,
+            "description": "thick ddd"
+        }
+        
+    ],
+    
+    "toppings": [
+        {
+            "type": "mushrooms",
+            "cost": 0.50,
+            "description": "sliced and lightly fried"
+        },
+        {
+            "type": "cheese",
+            "cost": 1.00,
+            "description": "grated cheese melted into your pizza"
+        },
+        {
+            "type": "anchovies",
+            "cost": 1.50,
+            "description": "add intense bursts of flavour"
+        },
+        {
+            "type": "sausage",
+            "cost": 1.80,
+            "description": "slices of smoked, spiced sausage"
+        },
+        {
+            "type": "capers",
+            "cost": 0.75,
+            "description": "add a bit of zing to your pizza"
+        }
+    ]
+}
